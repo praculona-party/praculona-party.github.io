@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Dhurjati" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="party.css" />
+  <title>Praculona Party</title>
+</head>
+</head>
+<body>
+  <h1 class="title">Compleanlaurea Festa Di Addio</h1>
+  <div class="subtitle">
+    <h2>1 Ottobre 2K16</h2>
+    <h2>Praculona Area</h2>
+  </div>
+  <div class="djs">
+    <h1>Djs</h1>
+    <h2>Bietto</h2>
+    <h2>Snodstar</h2>
+    <h2>NONAME</h2>
+    <h2>Mark Yo</h2>
+    <h2>Joshu@</h2>
+  </div>
+  <div class="infoline">
+    <h1>Info</h1>
+    <h4>
+      Parcheggia la macchina
+      <div class="position">
+        <a href="#" onclick="openPosition(45.810961, 9.428893)">
+            QUI
+        </a>
+      </div>
+      Prosegui a piedi fino alla
+      <div class="position">
+        <a href="#" onclick="openPosition(45.813221, 9.429872)">
+          SCALINATA
+        </a>
+      </div>
+      Da qui segui i nastri colorati fino ad arrivare alla festa.<br />
+      (Il posto si trova poco sopra la Cappella degli alpini)
+    </h4>
+  </div>
+  <div class="disclaimer">
+    <h3>NON E' UN RAVE - Festa Privata</h3>
+    <h4>Respect the place, respect yourself.</h4>
+  </div>
+<script type="text/javascript">
+function openPosition(lat, lon) {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+  if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+    window.location = 'https://maps.apple.com?ll=' + lat + ',' + lon + '&q=' + lat + ',' + lon;
+  } else if (/android/i.test(userAgent)) {
+    window.location = 'geo:' + lat + ',' + lon + '?q=' + lat + ',' + lon;
+  } else {
+    window.location = 'https://maps.google.com/maps?ll=' + lat + ',' + lon + '&q=' + lat + ',' + lon;
+  }
+}
+</script>
+</body>
+</html>

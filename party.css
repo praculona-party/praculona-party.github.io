@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 2px;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  line-height: 45px;
+  background-color: black;
+  font-family: 'Dhurjati', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  background: url('kds.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+.position {
+  width: 35%;
+  margin: auto;
+  background-color: black;
+  padding: 5px;
+  border: 1px solid white;
+}
+.position a {
+  text-decoration: none;
+  color: white;
+}
+.subtitle {
+  margin-top: 10px;
+}
+.djs {
+  margin-top: 25px;
+}
+.infoline {
+  margin-top: 25px;
+}
+.disclaimer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
