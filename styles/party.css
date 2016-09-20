@@ -44,9 +44,14 @@ h1, h2, h3, h4 {
 }
 .disclaimer ul {
   margin-top: 5px;
+  list-style: none;
 }
 .disclaimer li {
   line-height: 28px;
   font-size: 22px;
   text-align: left;
+}
+.disclaimer li:before {
+    content: "• ";
+    color: #FF0040;
 }
