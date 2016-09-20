@@ -21,9 +21,9 @@ h1, h2, h3, h4 {
 .position {
   width: 35%;
   margin: auto;
-  background-color: black;
+  background-color: rgba(0,0,0,0.5);
   padding: 5px;
-  border: 1px solid white;
+  border: 2px solid white;
 }
 .position a {
   text-decoration: none;
@@ -49,9 +49,10 @@ h1, h2, h3, h4 {
 .disclaimer li {
   line-height: 28px;
   font-size: 22px;
-  text-align: left;
+  text-align: center;
 }
 .disclaimer li:before {
+    align: center; 
     content: "• ";
-    color: #FF0040;
+color: #FF0040;
 }
