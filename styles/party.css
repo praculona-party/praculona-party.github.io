@@ -18,21 +18,26 @@ h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
 }
-.position {
+
+/* Position Button Link */
+.position a {
+  text-decoration: none;
+  color: white;
+}
+.position-btn {
   width: 35%;
   margin: auto;
   background-color: rgba(0,0,0,0.5);
   padding: 5px;
   border: 2px solid white;
 }
-.position a {
-  text-decoration: none;
-  color: white;
-}
 .subtitle {
   margin-top: 10px;
 }
 .djs {
+  margin-top: 25px;
+}
+.weather-alert {
   margin-top: 25px;
 }
 .infoline {
@@ -52,7 +57,7 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 .disclaimer li:before {
-    align: center; 
-    content: "• ";
-color: #FF0040;
+  align: center;
+  content: "• ";
+  color: #FF0040;
 }
